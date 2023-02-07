@@ -2,7 +2,7 @@
 
 require('telegramProxyCollector.php');
 
-$tpc = new TelegramProxyCollector('@Username'); //username of channel
+$tpc = new TelegramProxyCollector('@proxymtproto'); //username of channel
 
 
 $proxy1 = $tpc->getNewProxy(); //Get last proxy in channel
